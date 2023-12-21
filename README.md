@@ -22,7 +22,7 @@ To run this code on your system you will need:
 
 ## Run
 
-Run any of the scripts with:
+Run the simulations with:
 ```
 python3 landau-levels.py
 ```
