@@ -102,21 +102,32 @@ class LandauLevelSimulator:
         import matplotlib.pyplot as plt
         plt.plot(self.x_arr, self.n_landau_level_wf)
         plt.title(f"Landau Level Wave Function for n = {self.n}")
-        plt.xlabel("x (m)")
-        plt.ylabel("ψ(x)")
+        plt.xlabel("$x$ ($m$)")
+        plt.ylabel("$|\psi(x)|^2$")
         plt.show()
         self.plt = plt
         return self.plt
     
 
-    def plot_density(self):
+    def plot_density(self, with_classical=False):
         self.n_landau_level_density = self.n_landau_level_density \
             if self.n_landau_level_density is not None else self.compute_density()
         import matplotlib.pyplot as plt
         plt.plot(self.x_arr, self.n_landau_level_density)
         plt.title(f"Landau Level Density Function for n = {self.n}")
-        plt.xlabel("x (m)")
-        plt.ylabel("|ψ(x)|²")
+        plt.xlabel("$x$ ($m$)")
+        plt.ylabel("$|\psi(x)|^2$")
+        if with_classical:
+            plt.plot(self.x_arr, self.classical_density(self.n))
+            plt.legend(["Quantum", "Classical"])
         plt.show()
         self.plt = plt
         return self.plt
+    
+    
+    def classical_density(self, n):
+        from numpy import sqrt, pi
+        E = self.hbar * self.w_c() * (n + 1/2)
+        A = sqrt(2 * E / self.m)
+        x_arr = self.x_arr if self.x_arr is not None else self.compute_x_array()
+        return (1 / pi) / sqrt(A**2 - x_arr**2)
