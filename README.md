@@ -1,4 +1,4 @@
-# Landau Levels
+# Landau Levels Simulator
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14568540.svg)](https://doi.org/10.5281/zenodo.14568540)
 
