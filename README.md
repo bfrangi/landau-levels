@@ -28,3 +28,17 @@ Run the simulations with:
 ```
 python3 landau-levels.py
 ```
+
+## Cite this repository
+
+```
+@software{bernat_frangi_2024_14568540,
+  author       = {Bernat Frangi},
+  title        = {bfrangi/landau-levels},
+  month        = 12,
+  year         = 2024,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.14568540},
+  url          = {https://doi.org/10.5281/zenodo.14568540},
+}
+```
