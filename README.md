@@ -31,7 +31,7 @@ python3 landau-levels.py
 
 ## Cite this repository
 
-```
+```bibtex
 @software{bernat_frangi_2024_14568540,
   author       = {Bernat Frangi},
   title        = {bfrangi/landau-levels},
