@@ -1,5 +1,7 @@
 # Landau Levels
 
+[![DOI](https://zenodo.org/badge/734429748.svg)](https://doi.org/10.5281/zenodo.14568540)
+
 Numerical simulation in an *Advanced Quantum Mechanics* course of the *Engineering Physics* degree.
 
 ## Contents
