@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14568540.svg)](https://doi.org/10.5281/zenodo.14568540)
 
-Numerical simulation in an *Advanced Quantum Mechanics* course of the UC3M *Engineering Physics* degree.
+Code for *Numerical Simulation of Landau Levels* developed for an *Advanced Quantum Mechanics* course of the UC3M *Engineering Physics* degree.
 
 ## Contents
 
