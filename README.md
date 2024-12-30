@@ -1,4 +1,4 @@
-# Landau Levels Simulator
+# Numerical Simulation of Landau Levels
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14568540.svg)](https://doi.org/10.5281/zenodo.14568540)
 
@@ -34,7 +34,7 @@ python3 landau-levels.py
 ```bibtex
 @software{bernat_frangi_2024_14568540,
   author       = {Bernat Frangi},
-  title        = {bfrangi/landau-levels},
+  title        = {Numerical Simulation of Landau Levels},
   month        = 12,
   year         = 2024,
   publisher    = {Zenodo},
